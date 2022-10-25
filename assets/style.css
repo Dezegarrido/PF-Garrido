@@ -1,0 +1,155 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+/* NAVBAR */
+.navbar{
+    background-color:#FAE5D3;
+    display: inline-block;
+    position: fixed;
+    text-align: center;
+    /* width llena a lo largo */
+    width: 100%;
+    /* height llena a lo alto */
+    height: 45px;
+}
+ul{
+    display: inline-block;
+    list-style: none;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+}
+li{
+    float: left;
+}
+li a{
+    color: black;
+    display: block;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #858585;
+}
+.active{
+    background-color: aquamarine;
+}
+/* ACA TERMINA NAVBAR */
+/* ACA COMIENZA EL CONTENIDO DE LA PAGINA "MAIN CONTENT AREA" */
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.texto{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.tamanoImagen{
+    height: 500px;
+    min-height: 280px;
+    min-width: 300px;
+    max-width: 100%;
+    width: 100%;
+}
+.contenido h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.contenido h2{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.contenido h3{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.contenido p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.contenido{
+    padding-top: 50px;
+    margin-top: 30px;
+    min-height: 100vh;
+}
+.map{
+    padding-top: 50px;
+    padding-left: 500px;
+}
+/* ACA TERMINA EL CONTENIDO */
+/* FOOTER */
+footer{
+    background-color: #FAE5D3;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    margin-top: auto;
+}
+.active-link{
+    color: orange;
+}
+footer p{
+    text-align: left;
+}
+/* ACA TERMINA EL FOOTER */
+/* FORMULARIO DE CONTACTO */
+.formulario{
+    max-width: 400px;
+    border-radius: 30px;
+    padding: 10px 60px;
+    margin: auto;
+    height: 100vh;
+}
+.formulario__contenido{
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    padding-top: 100px;
+}
+.formulario__titulo{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.formulario__entrada{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 10px;
+    font-size: 16px;
+    padding: 16px;
+    border: 1px solid #bbb0b0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.formulario__entrada--mensaje{
+    resize: none;
+    padding: 60px 16px;
+    margin-bottom: 16px;
+}
+.formulario__enviar{
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    font-size: 16px;
+    color: white;
+    border: none;
+    font-weight: 300;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.formulario__enviar--active:hover{
+    background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+}
