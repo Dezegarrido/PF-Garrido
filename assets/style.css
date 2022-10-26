@@ -1,6 +1,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
     padding: 0px;
+    box-sizing: border-box;
     margin: 0px;
 }
 /* NAVBAR */
@@ -39,8 +40,8 @@ li a:hover{
 /* ACA COMIENZA EL CONTENIDO DE LA PAGINA "MAIN CONTENT AREA" */
 body{
     background-color: black;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
 }
 .texto{
@@ -78,7 +79,12 @@ body{
 .contenido{
     padding-top: 20px;
     margin-top: 10vh;
-    min-height: 100vh;
+}
+@media only screen and (min-width: 768px) {
+    .contenido{
+        padding-top: 20px;
+        margin-top: 5vh;
+    }
 }
 .map{
     padding-top: 50px;
@@ -150,6 +156,7 @@ footer p{
 .formulario__enviar--active:hover{
     background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
 }
+/* Galeria de fotos */
 .galeria{
     display: grid;
     grid-template-areas: 
@@ -209,4 +216,70 @@ footer p{
 }
 .foto7{
     grid-area: foto7;
+}
+/* Productos */
+.productos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 5px;
+        padding: 0.5vh;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        gap: 5px;
+        padding: 0.5vh;
+    }
+    .producto1:hover .overlay{
+        
+    }
+}
+.producto1{
+    border: 1px solid #858585;
+}
+.producto2{
+    border: 1px solid #858585;
+}
+.producto3{
+    border: 1px solid #858585;
+}
+.producto4{
+    border: 1px solid #858585;
+}
+.producto5{
+    border: 1px solid #858585;
+}
+.producto6{
+    border: 1px solid #858585;
+}
+.producto7{
+    border: 1px solid #858585;
+}
+.productos div img{
+    width: 100%;
+    object-fit: cover;
+}
+.productos button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+.productos button:hover{
+    opacity: 0.7;
 }
