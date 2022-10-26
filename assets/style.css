@@ -242,7 +242,7 @@ footer p{
         padding: 0.5vh;
     }
     .producto1:hover .overlay{
-        
+        /* continuar animacion */
     }
 }
 .producto1{
