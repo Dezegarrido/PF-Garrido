@@ -43,6 +43,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    justify-content: center;
 }
 .texto{
     text-align: center;
@@ -240,9 +241,16 @@ footer p{
         grid-template-columns: repeat(4, auto);
         gap: 5px;
         padding: 0.5vh;
+        overflow: hidden;
+        margin: 20px;
     }
-    .producto1:hover .overlay{
-        /* continuar animacion */
+    .productos img{
+        width: 100%;
+        transition: 1s;
+        object-fit: cover;
+    }
+    .productos img:hover{
+        transform: scale(1.2);
     }
 }
 .producto1{
