@@ -178,13 +178,13 @@ footer p{
     .galeria{
         display: grid;
         grid-template-areas: 
-        'foto1 foto1 foto3 foto3 foto3 foto4 foto4'
-        'foto1 foto1 foto3 foto3 foto3 foto4 foto4'
-        'foto1 foto1 foto2 foto2 foto2 foto4 foto4'
-        'foto1 foto1 foto2 foto2 foto2 foto4 foto4'
-        'foto5 foto5 foto5 foto5 foto5 foto5 foto5'
-        'foto6 foto6 foto6 foto7 foto7 foto7 foto7'
-        'foto6 foto6 foto6 foto7 foto7 foto7 foto7';
+        'foto1 foto1 foto1 foto3 foto3 foto4 foto4'
+        'foto1 foto1 foto1 foto3 foto3 foto4 foto4'
+        'foto1 foto1 foto1 foto2 foto2 foto4 foto4'
+        'foto1 foto1 foto1 foto2 foto2 foto4 foto4'
+        'foto5 foto5 foto6 foto6 foto6 foto7 foto7'
+        'foto5 foto5 foto6 foto6 foto6 foto7 foto7'
+        'foto5 foto5 foto6 foto6 foto6 foto7 foto7';
         grid-template-columns: repeat(7, auto);
         align-content: stretch;
         gap: 5px;
