@@ -6,7 +6,7 @@
 }
 /* NAVBAR */
 .navbar{
-    background-color:#FAE5D3;
+    background-color:#D4D2D5;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -25,7 +25,7 @@ li{
     float: left;
 }
 li a{
-    color: black;
+    color: #6C698D;
     display: block;
     padding: 14px 30px;
     text-decoration: none;
@@ -34,15 +34,17 @@ li a:hover{
     background-color: #858585;
 }
 .active{
-    background-color: aquamarine;
+    background-color: #D0BFB5;
 }
 /* ACA TERMINA NAVBAR */
 /* ACA COMIENZA EL CONTENIDO DE LA PAGINA "MAIN CONTENT AREA" */
 body{
-    background-color: black;
+    background-color: #AA968A;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     justify-content: center;
 }
 .texto{
@@ -94,19 +96,20 @@ body{
 /* ACA TERMINA EL CONTENIDO */
 /* FOOTER */
 footer{
-    background-color: #FAE5D3;
+    background-color: #D4D2D5;
     bottom: 0;
     text-align: center;
     width: 100%;
     height: auto;
     min-height: 100%;
     margin-top: auto;
+    padding: 20px;
 }
 .active-link{
-    color: orange;
+    color: #753742;
 }
 footer p{
-    text-align: left;
+    text-align: center;
 }
 /* ACA TERMINA EL FOOTER */
 /* FORMULARIO DE CONTACTO */
@@ -145,7 +148,7 @@ footer p{
     margin-bottom: 16px;
 }
 .formulario__enviar{
-    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    background-color: #D0BFB5;
     font-size: 16px;
     color: white;
     border: none;
@@ -155,7 +158,7 @@ footer p{
     cursor: pointer;
 }
 .formulario__enviar--active:hover{
-    background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+    background-color: #D4D2D5;
 }
 /* Galeria de fotos */
 .galeria{
