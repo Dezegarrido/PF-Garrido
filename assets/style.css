@@ -41,11 +41,10 @@ li a:hover{
 body{
     background-color: #AA968A;
     margin: 0;
-    padding: 0;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 100vh;
 }
 .texto{
     text-align: center;
@@ -80,8 +79,9 @@ body{
     text-align: center;
 }
 .contenido{
-    padding-top: 20px;
+    padding-top: 6em;
     margin-top: 10vh;
+    min-height: 100vh;
 }
 @media only screen and (min-width: 768px) {
     .contenido{
@@ -90,20 +90,16 @@ body{
     }
 }
 .map{
+    min-height: 100vh;
     padding-top: 50px;
-    padding-left: 500px;
 }
 /* ACA TERMINA EL CONTENIDO */
 /* FOOTER */
 footer{
     background-color: #D4D2D5;
-    bottom: 0;
-    text-align: center;
+    padding: 1em 0;
     width: 100%;
-    height: auto;
-    min-height: 100%;
     margin-top: auto;
-    padding: 20px;
 }
 .active-link{
     color: #753742;
@@ -116,7 +112,7 @@ footer p{
 .formulario{
     max-width: 400px;
     border-radius: 30px;
-    padding: 10px 60px;
+    padding: 50px 60px;
     margin: auto;
     height: 100vh;
 }
