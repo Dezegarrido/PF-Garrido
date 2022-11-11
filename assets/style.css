@@ -213,7 +213,7 @@ footer p{
 .foto7{
     grid-area: foto7;
 }
-/* Productos */
+/* Productos*/
 .productos{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
