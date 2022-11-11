@@ -46,11 +46,6 @@ body{
     justify-content: center;
     min-height: 100vh;
 }
-.texto{
-    text-align: center;
-    color: white;
-    font-size: 40px;
-}
 .tamanoImagen{
     height: 500px;
     min-height: 280px;
@@ -306,4 +301,72 @@ footer p{
     padding-bottom: 75%;
     height: 0;
     overflow: hidden;
+}
+/* Pagina Informacion */
+.container{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.container h3{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 25px;
+}
+.container p{
+    color: white;
+    text-align: justify-all;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.imginfo1{
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    width: 100%;
+    min-height: 100vh;
+    float: left;
+}
+.imginfo2{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 2%;
+    width: 100%;
+    min-height: 100vh;
+    float: right;
+}
+@media only screen and (min-width: 800px) {
+    .imginfo1{
+        margin-top: 50px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        border-radius: 5%;
+        width: 800px;
+        height: 320px;
+        float: left;
+        position: relative;
+    }
+    .imginfo2{
+        margin-top: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 2%;
+        width: 600px;
+        height: 1000px;
+        float: right;
+    }
 }
