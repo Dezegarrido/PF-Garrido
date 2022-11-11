@@ -336,7 +336,6 @@ footer p{
     margin-bottom: 10px;
     border-radius: 5%;
     width: 100%;
-    min-height: 100vh;
     float: left;
 }
 .imginfo2{
@@ -345,10 +344,15 @@ footer p{
     margin-bottom: 10px;
     border-radius: 2%;
     width: 100%;
-    min-height: 100vh;
     float: right;
 }
 @media only screen and (min-width: 800px) {
+    .container{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
     .imginfo1{
         margin-top: 50px;
         margin-right: 20px;
@@ -357,7 +361,6 @@ footer p{
         width: 800px;
         height: 320px;
         float: left;
-        position: relative;
     }
     .imginfo2{
         margin-top: 50px;
