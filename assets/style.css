@@ -226,15 +226,37 @@ body{
 /* FOOTER */
 footer{
     background-color: #D4D2D5;
-    padding: 1em 0;
-    width: 100%;
-    margin-top: auto;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
 }
-.active-link{
-    color: #753742;
+footer a{
+    padding: 10px;
 }
-footer p{
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
+}
+.info-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.copy-footer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 10px;
+}
+.made-footer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 10px;
 }
 /* ACA TERMINA EL FOOTER */
 /* PAGINA DE CONTACTO */
